@@ -1,28 +1,27 @@
-#Skill Development Tracker
+# Skill Development Tracker
 
-#Objective
-    This project helps students track their skill development progress.
+## Objective
+This project helps students track their skill development progress.
 
-#Objectives
+## Objectives
+- To track students' skill development progress.
+- To update daily learning activities.
+- To set and achieve learning goals.
+- To monitor completed and ongoing skills.
+- To generate progress reports.
 
-   1. To track students' skill development progress.
-   2. To update daily learning activities.
-   3. To set and achieve learning goals.
-   4. To monitor completed and ongoing skills.
-   5. To generate progress reports.
-
-#Features
-
+## Features
 - Add Skills
 - Update Progress
 - Set Goals
 - View Reports
 
-#Technologies
-
+## Technologies Used
 - Java
 - MySQL
 
-#Project Status
+## Project Status
+Objective Definition Completed
 
-  Objective Definition Completed
+## Completion
+10%
