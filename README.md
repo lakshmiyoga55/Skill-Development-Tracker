@@ -23,5 +23,3 @@ This project helps students track their skill development progress.
 ## Project Status
 Objective Definition Completed
 
-## Completion
-10%
