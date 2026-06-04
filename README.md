@@ -23,3 +23,36 @@ This project helps students track their skill development progress.
 ## Project Status
 Objective Definition Completed
 
+## Users
+
+### Student
+- Add Skills
+- Update Progress
+- Set Goals
+- View Reports
+
+### Admin
+- Manage Students
+- Monitor Reports
+
+## Modules
+
+### Login Module
+- User Authentication
+
+### Skill Management Module
+- Add Skill
+- Edit Skill
+- Delete Skill
+
+### Progress Tracking Module
+- Update Progress
+- View Progress
+
+### Goal Setting Module
+- Set Goals
+- Track Goals
+
+### Report Generation Module
+- Generate Reports
+- View Reports
