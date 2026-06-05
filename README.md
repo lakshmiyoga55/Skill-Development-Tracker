@@ -1,7 +1,7 @@
 # Skill Development Tracker
 
-## Objective
-This project helps students track their skill development progress.
+## Problem Statement
+Students often struggle to track their skills, certifications, internships, and learning progress in a single place. This project provides a centralized platform to manage and monitor skill development activities effectively.
 
 ## Objectives
 - To track students' skill development progress.
