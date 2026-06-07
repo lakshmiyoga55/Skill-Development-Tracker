@@ -134,7 +134,7 @@ Purpose
 The database is used to store and manage student skills, certifications, internships, and progress details.
 
 ## ER Diagram
-
+```text
 +-----------+
 |  Student  |
 +-----------+
@@ -181,6 +181,7 @@ The database is used to store and manage student skills, certifications, interns
 | CompanyName  |
 | Role         |
 +--------------+
+```
 
 Relationships
 
