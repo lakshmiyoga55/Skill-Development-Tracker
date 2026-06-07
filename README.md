@@ -56,3 +56,34 @@ Objective Definition Completed
 ### Report Generation Module
 - Generate Reports
 - View Reports
+
+## Use Case Diagram
+
+### Actors
+
+- Student
+- Admin
+
+### Diagram
+
+                +----------------+
+                |    Student     |
+                +----------------+
+                       |
+      -----------------------------------
+      |          |          |           |
+      v          v          v           v
+   Login    Add Skill   Add Cert.   Add Internship
+      |
+      v
+ View Progress
+
+
+                +--------------+
+                |    Admin     |
+                +--------------+
+                       |
+      --------------------------------
+      |              |              |
+      v              v              v
+ Manage Users   View Reports   Monitor Progress
