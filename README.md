@@ -64,8 +64,9 @@ Objective Definition Completed
 - Student
 - Admin
 
-### Diagram
+## Diagram
 
+```text
                 +----------------+
                 |    Student     |
                 +----------------+
@@ -73,8 +74,7 @@ Objective Definition Completed
       -----------------------------------
       |          |          |           |
       v          v          v           v
-   Login  
-   Add Skill    Add Cert.   Add Internship 
+   Login    Add Skill   Add Cert.   Add Internship
       |
       v
  View Progress
@@ -87,5 +87,5 @@ Objective Definition Completed
       --------------------------------
       |              |              |
       v              v              v
- Manage Users   View Reports   Monitor
-                               Progress
+ Manage Users   View Reports   Monitor Progress
+```
