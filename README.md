@@ -132,3 +132,63 @@ Relationships
 Purpose
 
 The database is used to store and manage student skills, certifications, internships, and progress details.
+
+## ER Diagram
+
++----------------+
+|    Student     |
++----------------+
+| Student_ID(PK) |
+| Name           |
+| Email          |
+| Department     |
+| Year           |
++----------------+
+        |
+        | 1
+        |
+        | M
++----------------+
+|     Skill      |
++----------------+
+| Skill_ID (PK)  |
+| Skill_Name     |
+| Skill_Level    |
+| Student_ID(FK) |
++----------------+
+
+        |
+        | 1
+        |
+        | M
++----------------------+
+|   Certification      |
++----------------------+
+| Certificate_ID (PK)  |
+| Certificate_Name     |
+| Provider             |
+| Completion_Date      |
+| Student_ID (FK)      |
++----------------------+
+
+        |
+        | 1
+        |
+        | M
++----------------------+
+|     Internship       |
++----------------------+
+| Internship_ID (PK)   |
+| Company_Name         |
+| Role                 |
+| Duration             |
+| Student_ID (FK)      |
++----------------------+
+
+Relationship
+
+One Student can have multiple Skills.
+
+One Student can have multiple Certifications.
+
+One Student can have multiple Internships.
