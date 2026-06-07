@@ -89,3 +89,46 @@ Objective Definition Completed
       v              v              v
  Manage Users   View Reports   Monitor Progress
 ```
+
+## Database Requirements
+
+Student Table
+
+- Student ID
+- Name
+- Email
+- Department
+- Year
+
+Skill Table
+
+- Skill ID
+- Skill Name
+- Skill Level
+- Student ID
+
+Certification Table
+
+- Certificate ID
+- Certificate Name
+- Provider
+- Completion Date
+- Student ID
+
+Internship Table
+
+- Internship ID
+- Company Name
+- Role
+- Duration
+- Student ID
+
+Relationships
+
+- One Student can have multiple Skills.
+- One Student can have multiple Certifications.
+- One Student can have multiple Internships.
+
+Purpose
+
+The database is used to store and manage student skills, certifications, internships, and progress details.
